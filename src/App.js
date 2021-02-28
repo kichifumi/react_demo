@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./compornents/Main.js";
+import Header from "./compornents/Header.js";
+import Footer from "./compornents/Footer.js";
 
-function App() {
+const App = () => {
+  const json = {
+    name: "佐藤",
+    age: "60",
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main name="田中" age="30" data={json} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
