@@ -1,0 +1,19 @@
+.news-author {
+  font-size: 14px;
+}
+
+.news-title {
+  font-size: 16px;
+}
+
+.news-image {
+  height: 100px;
+}
+
+.card {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.space-bottom {
+  margin-bottom: 10px;
+}

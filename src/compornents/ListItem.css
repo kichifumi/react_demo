@@ -1,0 +1,8 @@
+.list-table {
+    background-color: #cdefff;
+    border-collapse:  collapse;
+}
+.table-item {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}

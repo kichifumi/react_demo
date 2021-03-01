@@ -1,0 +1,13 @@
+.Header {
+  text-align: left;
+  height: 8vh;
+}
+
+.logo_image {
+  height: 8vh;
+}
+
+.title-text {
+    vertical-align: middle;
+    font-size: 30px;
+}
